@@ -13,7 +13,7 @@ Chúng tôi áp dụng mô hình **Git Feature Branching**:
 1. **Fork** repository về tài khoản cá nhân của bạn trên GitHub.
 2. **Clone** repository đã fork về máy:
    ```bash
-   git clone https://github.com/<your-username>/checknow.git
+   git clone https://github.com/fatboizz/CheckNow.git
    cd checknow
    ```
 3. Tạo nhánh tính năng mới từ nhánh `main`:
@@ -72,3 +72,4 @@ Trước khi gửi PR, hãy đảm bảo:
 
 Nếu bạn có câu hỏi hoặc cần trao đổi thêm, vui lòng tạo một Issue hoặc liên hệ qua kênh thảo luận của dự án.
 Cảm ơn sự đóng góp quý báu của bạn!
+

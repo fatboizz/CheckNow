@@ -2,7 +2,7 @@
 
 # ⏱️ CheckNow - Smart Task & Schedule Manager
 
-[![Flutter CI](https://github.com/checknow/checknow/actions/workflows/ci.yml/badge.svg)](https://github.com/checknow/checknow/actions)
+[![Flutter CI](https://github.com/fatboizz/CheckNow/actions/workflows/ci.yml/badge.svg)](https://github.com/fatboizz/CheckNow/actions)
 [![Flutter Version](https://img.shields.io/badge/Flutter-%3E%3D3.19.4-02569B?logo=flutter)](https://flutter.dev)
 [![Dart Version](https://img.shields.io/badge/Dart-%3E%3D3.3.2-0175C2?logo=dart)](https://dart.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -224,7 +224,7 @@ checknow/
 
 ### Bước 1: Clone Repository
 ```bash
-git clone https://github.com/<your-username>/checknow.git
+git clone https://github.com/fatboizz/CheckNow.git
 cd checknow
 ```
 
