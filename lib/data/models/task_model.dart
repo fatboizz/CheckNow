@@ -88,3 +88,4 @@ class Task {
     return 'Task(id: $id, title: $title, date: $date, startTime: $startTime, endTime: $endTime, isCompleted: $isCompleted)';
   }
 }
+

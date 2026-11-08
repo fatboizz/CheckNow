@@ -42,3 +42,4 @@ class Themes {
   static ThemeData get light => AppThemes.light;
   static ThemeData get dark => AppThemes.dark;
 }
+

@@ -31,3 +31,4 @@ Tất cả các thay đổi đáng chú ý của dự án **CheckNow** sẽ đư
 - Loại bỏ thư mục lồng nhau thừa `checknow1/checknow1`, đưa toàn bộ dự án về chuẩn root repository.
 - Xóa các file mã nguồn cũ phân mảnh, sửa lỗi typo tên file (`task_title.dart` -> `task_tile.dart`, `add_task_bar.dart` -> `add_task_page.dart`).
 - Khắc phục lỗi circular import trong theme và thay thế các thuộc tính UI deprecated (`colorScheme.background` -> `colorScheme.surface`).
+

@@ -20,3 +20,4 @@ Bạn đã cân nhắc những giải pháp thay thế nào khác chưa?
 
 ## 📌 Bổ sung (Additional Context)
 Thêm bất kỳ tài liệu, bản vẽ phác thảo (mockup) hoặc thông tin tham khảo nào khác.
+

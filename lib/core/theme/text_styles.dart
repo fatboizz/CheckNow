@@ -42,3 +42,4 @@ TextStyle get subTitleStyle {
     ),
   );
 }
+

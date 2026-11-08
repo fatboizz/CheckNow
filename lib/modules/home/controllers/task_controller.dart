@@ -48,3 +48,4 @@ class TaskController extends GetxController {
     await getTask();
   }
 }
+

@@ -38,3 +38,4 @@ class AppConstants {
   static const String notificationChannelDesc =
       'This channel is used for TodoList task notifications and reminders';
 }
+

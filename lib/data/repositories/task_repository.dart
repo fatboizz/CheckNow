@@ -40,3 +40,4 @@ class TaskRepository implements ITaskRepository {
     return await DBProvider.updateIsCompletedToZero();
   }
 }
+

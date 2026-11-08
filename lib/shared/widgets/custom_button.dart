@@ -40,3 +40,4 @@ class CustomButton extends StatelessWidget {
 
 /// Backward compatibility alias.
 typedef MyButton = CustomButton;
+

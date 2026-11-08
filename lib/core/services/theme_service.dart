@@ -23,3 +23,4 @@ class ThemeService {
     _saveThemeToBox(nextIsDark);
   }
 }
+

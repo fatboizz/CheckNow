@@ -81,3 +81,4 @@ class CustomInputField extends StatelessWidget {
 
 /// Backward compatibility alias.
 typedef MyInputField = CustomInputField;
+

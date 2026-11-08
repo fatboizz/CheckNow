@@ -97,3 +97,4 @@ class DBHelper {
   static Future<int> updateIsCompletedToZero() =>
       DBProvider.updateIsCompletedToZero();
 }
+

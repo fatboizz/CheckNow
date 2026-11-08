@@ -29,3 +29,4 @@ Nếu có, hãy đính kèm ảnh chụp màn hình hoặc log lỗi để dễ 
 
 ## 📌 Thông tin bổ sung (Additional Context)
 Bất kỳ thông tin bổ sung nào khác về vấn đề này.
+
