@@ -1,0 +1,48 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Default rules for all files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Dart source files
+[*.dart]
+indent_size = 2
+max_line_length = 80
+
+# YAML configuration files
+[*.{yaml,yml}]
+indent_size = 2
+
+# JSON configuration
+[*.json]
+indent_size = 2
+
+# Markdown documentation
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = 120
+
+# Gradle & Groovy scripts
+[*.{gradle,groovy}]
+indent_size = 4
+
+# XML / Android Manifest
+[*.xml]
+indent_size = 4
+
+# Shell scripts
+[*.{sh,bash}]
+indent_size = 2
+end_of_line = lf
+
+# Batch & PowerShell scripts
+[*.{bat,cmd,ps1}]
+end_of_line = crlf

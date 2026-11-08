@@ -1,0 +1,114 @@
+# ==============================================================================
+# Git Ignore Rules for CheckNow (Flutter Mobile & Desktop Application)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Environment & Sensitive Credentials (CRITICAL - DO NOT REMOVE)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+*.jks
+*.keystore
+
+# Firebase & Android Secrets
+android/app/google-services.json
+!android/app/google-services.json.example
+android/local.properties
+!android/local.properties.example
+android/key.properties
+!android/key.properties.example
+ios/Runner/GoogleService-Info.plist
+!ios/Runner/GoogleService-Info.plist.example
+
+# ------------------------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ------------------------------------------------------------------------------
+# IDE & Editor Files
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------------------------
+# Flutter / Dart / Pub Cache & Artifacts
+# ------------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ------------------------------------------------------------------------------
+# Android Build Artifacts & Gradle Cache
+# ------------------------------------------------------------------------------
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ------------------------------------------------------------------------------
+# iOS & macOS Build Artifacts & CocoaPods
+# ------------------------------------------------------------------------------
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ------------------------------------------------------------------------------
+# Windows & Linux Desktop Build Ephemeral Files
+# ------------------------------------------------------------------------------
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+CMakeSettings.json
+CMakeUserPresets.json
+
+# ------------------------------------------------------------------------------
+# Logs & Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*~
