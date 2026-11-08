@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:intl/intl.dart';
 import 'package:checknow1/core/constants/app_colors.dart';
 import 'package:checknow1/core/constants/app_constants.dart';
 import 'package:checknow1/core/utils/date_time_utils.dart';
@@ -88,19 +89,22 @@ void main() {
 
     test('Non-repeating task should match exact date only', () {
       final selectedDate = DateTime(2026, 11, 8);
+      final formatted = DateFormat.yMd().format(selectedDate);
       expect(
         DateTimeUtils.isTaskScheduledForDate(
           selectedDate: selectedDate,
-          taskDateStr: '11/8/2026',
+          taskDateStr: formatted,
           repeat: AppConstants.repeatNone,
         ),
         true,
       );
 
+      final tomorrow = selectedDate.add(const Duration(days: 1));
+      final tomorrowFormatted = DateFormat.yMd().format(tomorrow);
       expect(
         DateTimeUtils.isTaskScheduledForDate(
           selectedDate: selectedDate,
-          taskDateStr: '11/9/2026',
+          taskDateStr: tomorrowFormatted,
           repeat: AppConstants.repeatNone,
         ),
         false,
